@@ -124,3 +124,14 @@ Managing Python virtual environments is a valuable skill.
 This project is licensed under the MIT License as an example project.
 You are encouraged to fork, copy, explore, and modify the code as you like.
 See the [LICENSE](LICENSE.txt) file for more.
+
+-------
+kafka-server-start.sh → starts the Kafka broker 
+
+kafka-server-stop.sh → stops it 
+
+kafka-topics.sh → create, list, and describe topics 
+
+kafka-console-producer.sh → send (produce) messages 
+
+kafka-console-consumer.sh → read (consume) messages
