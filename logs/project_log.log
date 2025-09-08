@@ -1,647 +1,248 @@
-2025-09-04 19:31:20 | INFO | Logging to file: logs/project_log.log
-2025-09-04 19:31:20 | INFO | Log sanitization enabled, personal info will be removed
-2025-09-04 19:31:20 | INFO | START producer.
-2025-09-04 19:31:20 | INFO | Loading environment variables from .env file...
-2025-09-04 19:31:20 | INFO | Kafka broker address: localhost:9092
-2025-09-04 19:31:21 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '8xMRdVw9Rj6-_Csle1ws5w', 'controller_id': 1}
-2025-09-04 19:31:21 | INFO | Kafka topic: buzzline
-2025-09-04 19:31:21 | INFO | Message interval: 1 seconds
-2025-09-04 19:31:21 | INFO | Kafka broker address: localhost:9092
-2025-09-04 19:31:21 | INFO | Connecting to Kafka broker at localhost:9092...
-2025-09-04 19:31:21 | INFO | Kafka producer successfully created.
-2025-09-04 19:31:21 | INFO | Kafka broker address: localhost:9092
-2025-09-04 19:31:21 | INFO | Creating 'buzzline'.
-2025-09-04 19:31:21 | INFO | Topic 'buzzline' created successfully.
-2025-09-04 19:31:21 | INFO | Kafka topic 'buzzline' is ready.
-2025-09-04 19:31:21 | INFO | Starting message production to topic 'buzzline'...
-2025-09-04 19:31:21 | INFO | Generated buzz: I love Python!
-2025-09-04 19:31:21 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:31:22 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:31:22 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:31:23 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:31:23 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:31:24 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:31:24 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:31:25 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:31:25 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:31:26 | INFO | Generated buzz: I love Python!
-2025-09-04 19:31:26 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:31:27 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:31:27 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:31:28 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:31:28 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:31:29 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:31:29 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:31:30 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:31:30 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:31:31 | INFO | Generated buzz: I love Python!
-2025-09-04 19:31:31 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:31:32 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:31:32 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:31:33 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:31:33 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:31:34 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:31:34 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:31:35 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:31:35 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:31:36 | INFO | Generated buzz: I love Python!
-2025-09-04 19:31:37 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:31:38 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:31:38 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:31:39 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:31:39 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:31:40 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:31:40 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:31:41 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:31:41 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:31:42 | INFO | Generated buzz: I love Python!
-2025-09-04 19:31:42 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:31:43 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:31:43 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:31:44 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:31:44 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:31:45 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:31:45 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:31:46 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:31:46 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:31:47 | INFO | Generated buzz: I love Python!
-2025-09-04 19:31:47 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:31:48 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:31:48 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:31:49 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:31:49 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:31:50 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:31:50 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:31:51 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:31:51 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:31:52 | INFO | Generated buzz: I love Python!
-2025-09-04 19:31:52 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:31:53 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:31:53 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:31:54 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:31:54 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:31:55 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:31:55 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:31:56 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:31:56 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:31:57 | INFO | Generated buzz: I love Python!
-2025-09-04 19:31:57 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:31:58 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:31:58 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:31:59 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:31:59 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:32:00 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:32:00 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:32:01 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:32:01 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:32:02 | INFO | Generated buzz: I love Python!
-2025-09-04 19:32:02 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:32:03 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:32:03 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:32:04 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:32:04 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:32:05 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:32:05 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:32:06 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:32:06 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:32:07 | INFO | Generated buzz: I love Python!
-2025-09-04 19:32:07 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:32:08 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:32:08 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:32:09 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:32:09 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:32:10 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:32:10 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:32:11 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:32:11 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:32:12 | INFO | Generated buzz: I love Python!
-2025-09-04 19:32:12 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:32:13 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:32:13 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:32:14 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:32:14 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:32:15 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:32:15 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:32:16 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:32:16 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:32:17 | INFO | Generated buzz: I love Python!
-2025-09-04 19:32:17 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:32:18 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:32:18 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:32:19 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:32:19 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:32:20 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:32:20 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:32:21 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:32:21 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:32:22 | INFO | Generated buzz: I love Python!
-2025-09-04 19:32:22 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:32:23 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:32:23 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:32:24 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:32:24 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:32:25 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:32:25 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:32:26 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:32:26 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:32:27 | INFO | Generated buzz: I love Python!
-2025-09-04 19:32:27 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:32:28 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:32:28 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:32:29 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:32:29 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:32:30 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:32:30 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:32:31 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:32:31 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:32:32 | INFO | Generated buzz: I love Python!
-2025-09-04 19:32:32 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:32:33 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:32:33 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:32:34 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:32:34 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:32:35 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:32:35 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:32:36 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:32:36 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:32:37 | INFO | Generated buzz: I love Python!
-2025-09-04 19:32:37 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:32:38 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:32:38 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:32:39 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:32:39 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:32:40 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:32:40 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:32:41 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:32:41 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:32:42 | INFO | Generated buzz: I love Python!
-2025-09-04 19:32:42 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:32:43 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:32:43 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:32:44 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:32:44 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:32:45 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:32:45 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:32:46 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:32:46 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:32:47 | INFO | Generated buzz: I love Python!
-2025-09-04 19:32:47 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:32:48 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:32:48 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:32:49 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:32:49 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:32:50 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:32:50 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:32:51 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:32:51 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:32:52 | INFO | Generated buzz: I love Python!
-2025-09-04 19:32:52 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:32:53 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:32:53 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:32:54 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:32:54 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:32:55 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:32:55 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:32:56 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:32:56 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:32:57 | INFO | Generated buzz: I love Python!
-2025-09-04 19:32:57 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:32:58 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:32:58 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:32:59 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:32:59 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:33:00 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:33:00 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:33:01 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:33:01 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:33:02 | INFO | Generated buzz: I love Python!
-2025-09-04 19:33:02 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:33:03 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:33:03 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:33:04 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:33:04 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:33:04 | INFO | Logging to file: logs/project_log.log
-2025-09-04 19:33:04 | INFO | Log sanitization enabled, personal info will be removed
-2025-09-04 19:33:04 | INFO | START consumer.
-2025-09-04 19:33:04 | INFO | Kafka topic: buzzline
-2025-09-04 19:33:04 | INFO | Kafka consumer group id: default_group
-2025-09-04 19:33:04 | INFO | Consumer: Topic 'buzzline' and group 'default_group'...
-2025-09-04 19:33:04 | INFO | Kafka broker address: localhost:9092
-2025-09-04 19:33:04 | INFO | Creating Kafka consumer. Topic='buzzline' and group ID='default_group'.
-2025-09-04 19:33:04 | INFO | Kafka consumer created successfully.
-2025-09-04 19:33:04 | INFO | Polling messages from topic 'buzzline'...
-2025-09-04 19:33:05 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:33:05 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:33:06 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:33:06 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:33:07 | INFO | Generated buzz: I love Python!
-2025-09-04 19:33:07 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:08 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:08 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:08 | INFO | Processing message: I love Python!
-2025-09-04 19:33:08 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:33:08 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:09 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:33:09 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:33:09 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:10 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:33:10 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:33:10 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:11 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:33:11 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:33:11 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:12 | INFO | Generated buzz: I love Python!
-2025-09-04 19:33:12 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:33:12 | INFO | Processing message: I love Python!
-2025-09-04 19:33:13 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:33:13 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:33:13 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:14 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:33:14 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:33:14 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:15 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:33:15 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:33:15 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:16 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:33:16 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:33:16 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:17 | INFO | Generated buzz: I love Python!
-2025-09-04 19:33:17 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:33:17 | INFO | Processing message: I love Python!
-2025-09-04 19:33:18 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:33:18 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:33:18 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:19 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:33:19 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:33:19 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:20 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:33:20 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:33:20 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:21 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:33:21 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:33:21 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:22 | INFO | Generated buzz: I love Python!
-2025-09-04 19:33:22 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:33:22 | INFO | Processing message: I love Python!
-2025-09-04 19:33:23 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:33:23 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:33:23 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:24 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:33:24 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:33:24 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:25 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:33:25 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:33:25 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:26 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:33:26 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:33:26 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:27 | INFO | Generated buzz: I love Python!
-2025-09-04 19:33:27 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:33:27 | INFO | Processing message: I love Python!
-2025-09-04 19:33:28 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:33:28 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:33:28 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:29 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:33:29 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:33:29 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:30 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:33:30 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:33:30 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:31 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:33:31 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:33:31 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:32 | INFO | Generated buzz: I love Python!
-2025-09-04 19:33:32 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:33:32 | INFO | Processing message: I love Python!
-2025-09-04 19:33:33 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:33:33 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:33:33 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:34 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:33:34 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:33:34 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:35 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:33:35 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:33:35 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:36 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:33:36 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:33:36 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:37 | INFO | Generated buzz: I love Python!
-2025-09-04 19:33:37 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:33:37 | INFO | Processing message: I love Python!
-2025-09-04 19:33:38 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:33:38 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:33:38 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:39 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:33:39 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:33:39 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:40 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:33:40 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:33:40 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:41 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:33:41 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:33:41 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:42 | INFO | Generated buzz: I love Python!
-2025-09-04 19:33:42 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:33:42 | INFO | Processing message: I love Python!
-2025-09-04 19:33:43 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:33:43 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:33:43 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:44 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:33:44 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:33:44 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:45 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:33:45 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:33:45 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:46 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:33:46 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:33:46 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:47 | INFO | Generated buzz: I love Python!
-2025-09-04 19:33:47 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:33:47 | INFO | Processing message: I love Python!
-2025-09-04 19:33:48 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:33:48 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:33:48 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:49 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:33:49 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:33:49 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:50 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:33:50 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:33:50 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:51 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:33:51 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:33:51 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:52 | INFO | Generated buzz: I love Python!
-2025-09-04 19:33:52 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:33:53 | INFO | Processing message: I love Python!
-2025-09-04 19:33:54 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:33:54 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:33:54 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:33:55 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:33:55 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:33:55 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:33:56 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:33:56 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:33:56 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:33:57 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:33:57 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:33:57 | INFO | Processing message: Have a great day!
-2025-09-04 19:33:58 | INFO | Generated buzz: I love Python!
-2025-09-04 19:33:58 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:33:58 | INFO | Processing message: I love Python!
-2025-09-04 19:33:59 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:33:59 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:33:59 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:34:00 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:34:00 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:34:00 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:34:01 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:34:01 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:34:01 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:34:02 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:34:02 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:34:02 | INFO | Processing message: Have a great day!
-2025-09-04 19:34:03 | INFO | Generated buzz: I love Python!
-2025-09-04 19:34:03 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:34:03 | INFO | Processing message: I love Python!
-2025-09-04 19:34:04 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:34:04 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:34:04 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:34:05 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:34:05 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:34:05 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:34:06 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:34:06 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:34:06 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:34:07 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:34:07 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:34:07 | INFO | Processing message: Have a great day!
-2025-09-04 19:34:08 | INFO | Generated buzz: I love Python!
-2025-09-04 19:34:08 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:34:08 | INFO | Processing message: I love Python!
-2025-09-04 19:34:09 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:34:09 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:34:09 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:34:10 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:34:10 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:34:10 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:34:11 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:34:11 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:34:11 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:34:12 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:34:12 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:34:12 | INFO | Processing message: Have a great day!
-2025-09-04 19:34:13 | INFO | Generated buzz: I love Python!
-2025-09-04 19:34:13 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:34:13 | INFO | Processing message: I love Python!
-2025-09-04 19:34:14 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:34:14 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:34:14 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:34:15 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:34:15 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:34:15 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:34:16 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:34:16 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:34:16 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:34:17 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:34:17 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:34:17 | INFO | Processing message: Have a great day!
-2025-09-04 19:34:18 | INFO | Generated buzz: I love Python!
-2025-09-04 19:34:18 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:34:18 | INFO | Processing message: I love Python!
-2025-09-04 19:34:19 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:34:19 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:34:19 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:34:20 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:34:20 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:34:20 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:34:21 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:34:21 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:34:21 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:34:22 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:34:22 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:34:22 | INFO | Processing message: Have a great day!
-2025-09-04 19:34:23 | INFO | Generated buzz: I love Python!
-2025-09-04 19:34:23 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:34:23 | INFO | Processing message: I love Python!
-2025-09-04 19:34:24 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:34:24 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:34:24 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:34:25 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:34:25 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:34:25 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:34:26 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:34:26 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:34:26 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:34:27 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:34:27 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:34:27 | INFO | Processing message: Have a great day!
-2025-09-04 19:34:28 | INFO | Generated buzz: I love Python!
-2025-09-04 19:34:28 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:34:28 | INFO | Processing message: I love Python!
-2025-09-04 19:34:29 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:34:29 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:34:29 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:34:30 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:34:30 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:34:30 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:34:31 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:34:31 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:34:31 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:34:32 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:34:32 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:34:32 | INFO | Processing message: Have a great day!
-2025-09-04 19:34:33 | INFO | Generated buzz: I love Python!
-2025-09-04 19:34:33 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:34:33 | INFO | Processing message: I love Python!
-2025-09-04 19:34:34 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:34:34 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:34:34 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:34:35 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:34:35 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:34:35 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:34:36 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:34:36 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:34:36 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:34:37 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:34:37 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:34:37 | INFO | Processing message: Have a great day!
-2025-09-04 19:34:38 | INFO | Generated buzz: I love Python!
-2025-09-04 19:34:38 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:34:38 | INFO | Processing message: I love Python!
-2025-09-04 19:34:39 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:34:39 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:34:39 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:34:40 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:34:40 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:34:40 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:34:41 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:34:41 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:34:41 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:34:42 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:34:42 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:34:42 | INFO | Processing message: Have a great day!
-2025-09-04 19:34:43 | INFO | Generated buzz: I love Python!
-2025-09-04 19:34:43 | INFO | Sent message to topic 'buzzline': I love Python!
-2025-09-04 19:34:43 | INFO | Processing message: I love Python!
-2025-09-04 19:34:44 | INFO | Generated buzz: Kafka is awesome.
-2025-09-04 19:34:44 | INFO | Sent message to topic 'buzzline': Kafka is awesome.
-2025-09-04 19:34:44 | INFO | Processing message: Kafka is awesome.
-2025-09-04 19:34:45 | INFO | Generated buzz: Streaming data is fun.
-2025-09-04 19:34:45 | INFO | Sent message to topic 'buzzline': Streaming data is fun.
-2025-09-04 19:34:45 | INFO | Processing message: Streaming data is fun.
-2025-09-04 19:34:46 | INFO | Generated buzz: This is a buzz message.
-2025-09-04 19:34:46 | INFO | Sent message to topic 'buzzline': This is a buzz message.
-2025-09-04 19:34:46 | INFO | Processing message: This is a buzz message.
-2025-09-04 19:34:47 | INFO | Generated buzz: Have a great day!
-2025-09-04 19:34:47 | INFO | Sent message to topic 'buzzline': Have a great day!
-2025-09-04 19:34:47 | INFO | Processing message: Have a great day!
-2025-09-04 19:34:48 | WARNING | Producer interrupted by user.
-2025-09-04 19:34:48 | INFO | Kafka producer closed.
-2025-09-04 19:34:48 | INFO | END producer.
-2025-09-04 19:34:50 | WARNING | Consumer interrupted by user.
-2025-09-04 19:34:50 | INFO | Kafka consumer for topic 'buzzline' closed.
-2025-09-04 19:34:50 | INFO | END consumer for topic 'buzzline' and group 'default_group'.
+2025-09-08 04:59:34 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:34] #2192 | sensor_12: temperature reading = 73F
+2025-09-08 04:59:35 | INFO | Generated buzz: [2025-09-08T04:59:35] #2193 | webserver_01: GET /api/products 200 OK
+2025-09-08 04:59:35 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:35] #2193 | webserver_01: GET /api/products 200 OK
+2025-09-08 04:59:36 | INFO | Generated buzz: [2025-09-08T04:59:36] #2194 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 04:59:36 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:36] #2194 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 04:59:37 | INFO | Generated buzz: [2025-09-08T04:59:37] #2195 | db_node_3: replication lag = 2s
+2025-09-08 04:59:37 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:37] #2195 | db_node_3: replication lag = 2s
+2025-09-08 04:59:38 | INFO | Generated buzz: [2025-09-08T04:59:38] #2196 | sensor_12: temperature reading = 72F
+2025-09-08 04:59:38 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:38] #2196 | sensor_12: temperature reading = 72F
+2025-09-08 04:59:39 | INFO | Generated buzz: [2025-09-08T04:59:39] #2197 | sensor_12: temperature reading = 73F
+2025-09-08 04:59:39 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:39] #2197 | sensor_12: temperature reading = 73F
+2025-09-08 04:59:40 | INFO | Generated buzz: [2025-09-08T04:59:40] #2198 | webserver_01: GET /api/products 200 OK
+2025-09-08 04:59:40 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:40] #2198 | webserver_01: GET /api/products 200 OK
+2025-09-08 04:59:41 | INFO | Generated buzz: [2025-09-08T04:59:41] #2199 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 04:59:41 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:41] #2199 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 04:59:42 | INFO | Generated buzz: [2025-09-08T04:59:42] #2200 | db_node_3: replication lag = 2s
+2025-09-08 04:59:42 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:42] #2200 | db_node_3: replication lag = 2s
+2025-09-08 04:59:43 | INFO | Generated buzz: [2025-09-08T04:59:43] #2201 | sensor_12: temperature reading = 72F
+2025-09-08 04:59:43 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:43] #2201 | sensor_12: temperature reading = 72F
+2025-09-08 04:59:44 | INFO | Generated buzz: [2025-09-08T04:59:44] #2202 | sensor_12: temperature reading = 73F
+2025-09-08 04:59:44 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:44] #2202 | sensor_12: temperature reading = 73F
+2025-09-08 04:59:45 | INFO | Generated buzz: [2025-09-08T04:59:45] #2203 | webserver_01: GET /api/products 200 OK
+2025-09-08 04:59:45 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:45] #2203 | webserver_01: GET /api/products 200 OK
+2025-09-08 04:59:46 | INFO | Generated buzz: [2025-09-08T04:59:46] #2204 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 04:59:46 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:46] #2204 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 04:59:47 | INFO | Generated buzz: [2025-09-08T04:59:47] #2205 | db_node_3: replication lag = 2s
+2025-09-08 04:59:47 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:47] #2205 | db_node_3: replication lag = 2s
+2025-09-08 04:59:48 | INFO | Generated buzz: [2025-09-08T04:59:48] #2206 | sensor_12: temperature reading = 72F
+2025-09-08 04:59:48 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:48] #2206 | sensor_12: temperature reading = 72F
+2025-09-08 04:59:49 | INFO | Generated buzz: [2025-09-08T04:59:49] #2207 | sensor_12: temperature reading = 73F
+2025-09-08 04:59:49 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:49] #2207 | sensor_12: temperature reading = 73F
+2025-09-08 04:59:50 | INFO | Generated buzz: [2025-09-08T04:59:50] #2208 | webserver_01: GET /api/products 200 OK
+2025-09-08 04:59:50 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:50] #2208 | webserver_01: GET /api/products 200 OK
+2025-09-08 04:59:51 | INFO | Generated buzz: [2025-09-08T04:59:51] #2209 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 04:59:51 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:51] #2209 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 04:59:52 | INFO | Generated buzz: [2025-09-08T04:59:52] #2210 | db_node_3: replication lag = 2s
+2025-09-08 04:59:52 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:52] #2210 | db_node_3: replication lag = 2s
+2025-09-08 04:59:53 | INFO | Generated buzz: [2025-09-08T04:59:53] #2211 | sensor_12: temperature reading = 72F
+2025-09-08 04:59:53 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:53] #2211 | sensor_12: temperature reading = 72F
+2025-09-08 04:59:54 | INFO | Generated buzz: [2025-09-08T04:59:54] #2212 | sensor_12: temperature reading = 73F
+2025-09-08 04:59:54 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:54] #2212 | sensor_12: temperature reading = 73F
+2025-09-08 04:59:55 | INFO | Generated buzz: [2025-09-08T04:59:55] #2213 | webserver_01: GET /api/products 200 OK
+2025-09-08 04:59:55 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:55] #2213 | webserver_01: GET /api/products 200 OK
+2025-09-08 04:59:56 | INFO | Generated buzz: [2025-09-08T04:59:56] #2214 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 04:59:56 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:56] #2214 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 04:59:57 | INFO | Generated buzz: [2025-09-08T04:59:57] #2215 | db_node_3: replication lag = 2s
+2025-09-08 04:59:57 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:57] #2215 | db_node_3: replication lag = 2s
+2025-09-08 04:59:58 | INFO | Generated buzz: [2025-09-08T04:59:58] #2216 | sensor_12: temperature reading = 72F
+2025-09-08 04:59:58 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:58] #2216 | sensor_12: temperature reading = 72F
+2025-09-08 04:59:59 | INFO | Generated buzz: [2025-09-08T04:59:59] #2217 | sensor_12: temperature reading = 73F
+2025-09-08 04:59:59 | INFO | Sent message to topic 'buzzline': [2025-09-08T04:59:59] #2217 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:00 | INFO | Generated buzz: [2025-09-08T05:00:00] #2218 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:00 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:00] #2218 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:01 | INFO | Generated buzz: [2025-09-08T05:00:01] #2219 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:01 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:01] #2219 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:02 | INFO | Generated buzz: [2025-09-08T05:00:02] #2220 | db_node_3: replication lag = 2s
+2025-09-08 05:00:02 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:02] #2220 | db_node_3: replication lag = 2s
+2025-09-08 05:00:03 | INFO | Generated buzz: [2025-09-08T05:00:03] #2221 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:03 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:03] #2221 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:04 | INFO | Generated buzz: [2025-09-08T05:00:04] #2222 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:04 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:04] #2222 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:05 | INFO | Generated buzz: [2025-09-08T05:00:05] #2223 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:05 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:05] #2223 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:06 | INFO | Generated buzz: [2025-09-08T05:00:06] #2224 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:06 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:06] #2224 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:07 | INFO | Generated buzz: [2025-09-08T05:00:07] #2225 | db_node_3: replication lag = 2s
+2025-09-08 05:00:07 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:07] #2225 | db_node_3: replication lag = 2s
+2025-09-08 05:00:08 | INFO | Generated buzz: [2025-09-08T05:00:08] #2226 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:08 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:08] #2226 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:09 | INFO | Generated buzz: [2025-09-08T05:00:09] #2227 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:09 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:09] #2227 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:10 | INFO | Generated buzz: [2025-09-08T05:00:10] #2228 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:10 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:10] #2228 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:11 | INFO | Generated buzz: [2025-09-08T05:00:11] #2229 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:11 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:11] #2229 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:12 | INFO | Generated buzz: [2025-09-08T05:00:12] #2230 | db_node_3: replication lag = 2s
+2025-09-08 05:00:12 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:12] #2230 | db_node_3: replication lag = 2s
+2025-09-08 05:00:13 | INFO | Generated buzz: [2025-09-08T05:00:13] #2231 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:13 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:13] #2231 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:14 | INFO | Generated buzz: [2025-09-08T05:00:14] #2232 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:14 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:14] #2232 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:15 | INFO | Generated buzz: [2025-09-08T05:00:15] #2233 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:15 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:15] #2233 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:16 | INFO | Generated buzz: [2025-09-08T05:00:16] #2234 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:16 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:16] #2234 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:17 | INFO | Generated buzz: [2025-09-08T05:00:17] #2235 | db_node_3: replication lag = 2s
+2025-09-08 05:00:17 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:17] #2235 | db_node_3: replication lag = 2s
+2025-09-08 05:00:18 | INFO | Generated buzz: [2025-09-08T05:00:18] #2236 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:18 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:18] #2236 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:19 | INFO | Generated buzz: [2025-09-08T05:00:19] #2237 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:19 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:19] #2237 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:20 | INFO | Generated buzz: [2025-09-08T05:00:20] #2238 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:20 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:20] #2238 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:21 | INFO | Generated buzz: [2025-09-08T05:00:21] #2239 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:21 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:21] #2239 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:22 | INFO | Generated buzz: [2025-09-08T05:00:22] #2240 | db_node_3: replication lag = 2s
+2025-09-08 05:00:22 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:22] #2240 | db_node_3: replication lag = 2s
+2025-09-08 05:00:23 | INFO | Generated buzz: [2025-09-08T05:00:23] #2241 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:23 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:23] #2241 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:24 | INFO | Generated buzz: [2025-09-08T05:00:24] #2242 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:24 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:24] #2242 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:25 | INFO | Generated buzz: [2025-09-08T05:00:25] #2243 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:25 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:25] #2243 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:26 | INFO | Generated buzz: [2025-09-08T05:00:26] #2244 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:26 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:26] #2244 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:27 | INFO | Generated buzz: [2025-09-08T05:00:27] #2245 | db_node_3: replication lag = 2s
+2025-09-08 05:00:27 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:27] #2245 | db_node_3: replication lag = 2s
+2025-09-08 05:00:28 | INFO | Generated buzz: [2025-09-08T05:00:28] #2246 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:28 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:28] #2246 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:29 | INFO | Generated buzz: [2025-09-08T05:00:29] #2247 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:29 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:29] #2247 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:30 | INFO | Generated buzz: [2025-09-08T05:00:30] #2248 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:30 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:30] #2248 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:31 | INFO | Generated buzz: [2025-09-08T05:00:31] #2249 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:31 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:31] #2249 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:32 | INFO | Generated buzz: [2025-09-08T05:00:32] #2250 | db_node_3: replication lag = 2s
+2025-09-08 05:00:32 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:32] #2250 | db_node_3: replication lag = 2s
+2025-09-08 05:00:33 | INFO | Generated buzz: [2025-09-08T05:00:33] #2251 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:33 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:33] #2251 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:34 | INFO | Generated buzz: [2025-09-08T05:00:34] #2252 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:34 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:34] #2252 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:35 | INFO | Generated buzz: [2025-09-08T05:00:35] #2253 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:35 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:35] #2253 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:36 | INFO | Generated buzz: [2025-09-08T05:00:36] #2254 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:36 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:36] #2254 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:38 | INFO | Generated buzz: [2025-09-08T05:00:38] #2255 | db_node_3: replication lag = 2s
+2025-09-08 05:00:38 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:38] #2255 | db_node_3: replication lag = 2s
+2025-09-08 05:00:39 | INFO | Generated buzz: [2025-09-08T05:00:39] #2256 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:39 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:39] #2256 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:40 | INFO | Generated buzz: [2025-09-08T05:00:40] #2257 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:40 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:40] #2257 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:41 | INFO | Generated buzz: [2025-09-08T05:00:41] #2258 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:41 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:41] #2258 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:42 | INFO | Generated buzz: [2025-09-08T05:00:42] #2259 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:42 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:42] #2259 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:43 | INFO | Generated buzz: [2025-09-08T05:00:43] #2260 | db_node_3: replication lag = 2s
+2025-09-08 05:00:43 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:43] #2260 | db_node_3: replication lag = 2s
+2025-09-08 05:00:44 | INFO | Generated buzz: [2025-09-08T05:00:44] #2261 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:44 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:44] #2261 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:45 | INFO | Generated buzz: [2025-09-08T05:00:45] #2262 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:45 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:45] #2262 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:46 | INFO | Generated buzz: [2025-09-08T05:00:46] #2263 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:46 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:46] #2263 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:47 | INFO | Generated buzz: [2025-09-08T05:00:47] #2264 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:47 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:47] #2264 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:48 | INFO | Generated buzz: [2025-09-08T05:00:48] #2265 | db_node_3: replication lag = 2s
+2025-09-08 05:00:48 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:48] #2265 | db_node_3: replication lag = 2s
+2025-09-08 05:00:49 | INFO | Generated buzz: [2025-09-08T05:00:49] #2266 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:49 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:49] #2266 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:50 | INFO | Generated buzz: [2025-09-08T05:00:50] #2267 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:50 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:50] #2267 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:51 | INFO | Generated buzz: [2025-09-08T05:00:51] #2268 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:51 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:51] #2268 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:52 | INFO | Generated buzz: [2025-09-08T05:00:52] #2269 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:52 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:52] #2269 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:53 | INFO | Generated buzz: [2025-09-08T05:00:53] #2270 | db_node_3: replication lag = 2s
+2025-09-08 05:00:53 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:53] #2270 | db_node_3: replication lag = 2s
+2025-09-08 05:00:54 | INFO | Generated buzz: [2025-09-08T05:00:54] #2271 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:54 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:54] #2271 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:55 | INFO | Generated buzz: [2025-09-08T05:00:55] #2272 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:55 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:55] #2272 | sensor_12: temperature reading = 73F
+2025-09-08 05:00:56 | INFO | Generated buzz: [2025-09-08T05:00:56] #2273 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:56 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:56] #2273 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:00:57 | INFO | Generated buzz: [2025-09-08T05:00:57] #2274 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:57 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:57] #2274 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:00:58 | INFO | Generated buzz: [2025-09-08T05:00:58] #2275 | db_node_3: replication lag = 2s
+2025-09-08 05:00:58 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:58] #2275 | db_node_3: replication lag = 2s
+2025-09-08 05:00:59 | INFO | Generated buzz: [2025-09-08T05:00:59] #2276 | sensor_12: temperature reading = 72F
+2025-09-08 05:00:59 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:00:59] #2276 | sensor_12: temperature reading = 72F
+2025-09-08 05:01:00 | INFO | Generated buzz: [2025-09-08T05:01:00] #2277 | sensor_12: temperature reading = 73F
+2025-09-08 05:01:00 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:00] #2277 | sensor_12: temperature reading = 73F
+2025-09-08 05:01:01 | INFO | Generated buzz: [2025-09-08T05:01:01] #2278 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:01:01 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:01] #2278 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:01:02 | INFO | Generated buzz: [2025-09-08T05:01:02] #2279 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:01:02 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:02] #2279 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:01:03 | INFO | Generated buzz: [2025-09-08T05:01:03] #2280 | db_node_3: replication lag = 2s
+2025-09-08 05:01:03 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:03] #2280 | db_node_3: replication lag = 2s
+2025-09-08 05:01:04 | INFO | Generated buzz: [2025-09-08T05:01:04] #2281 | sensor_12: temperature reading = 72F
+2025-09-08 05:01:04 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:04] #2281 | sensor_12: temperature reading = 72F
+2025-09-08 05:01:05 | INFO | Generated buzz: [2025-09-08T05:01:05] #2282 | sensor_12: temperature reading = 73F
+2025-09-08 05:01:05 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:05] #2282 | sensor_12: temperature reading = 73F
+2025-09-08 05:01:06 | INFO | Generated buzz: [2025-09-08T05:01:06] #2283 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:01:06 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:06] #2283 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:01:07 | INFO | Generated buzz: [2025-09-08T05:01:07] #2284 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:01:07 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:07] #2284 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:01:08 | INFO | Generated buzz: [2025-09-08T05:01:08] #2285 | db_node_3: replication lag = 2s
+2025-09-08 05:01:08 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:08] #2285 | db_node_3: replication lag = 2s
+2025-09-08 05:01:09 | INFO | Generated buzz: [2025-09-08T05:01:09] #2286 | sensor_12: temperature reading = 72F
+2025-09-08 05:01:09 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:09] #2286 | sensor_12: temperature reading = 72F
+2025-09-08 05:01:10 | INFO | Generated buzz: [2025-09-08T05:01:10] #2287 | sensor_12: temperature reading = 73F
+2025-09-08 05:01:10 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:10] #2287 | sensor_12: temperature reading = 73F
+2025-09-08 05:01:11 | INFO | Generated buzz: [2025-09-08T05:01:11] #2288 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:01:11 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:11] #2288 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:01:12 | INFO | Generated buzz: [2025-09-08T05:01:12] #2289 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:01:12 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:12] #2289 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:01:13 | INFO | Generated buzz: [2025-09-08T05:01:13] #2290 | db_node_3: replication lag = 2s
+2025-09-08 05:01:13 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:13] #2290 | db_node_3: replication lag = 2s
+2025-09-08 05:01:14 | INFO | Generated buzz: [2025-09-08T05:01:14] #2291 | sensor_12: temperature reading = 72F
+2025-09-08 05:01:14 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:14] #2291 | sensor_12: temperature reading = 72F
+2025-09-08 05:01:15 | INFO | Generated buzz: [2025-09-08T05:01:15] #2292 | sensor_12: temperature reading = 73F
+2025-09-08 05:01:15 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:15] #2292 | sensor_12: temperature reading = 73F
+2025-09-08 05:01:16 | INFO | Generated buzz: [2025-09-08T05:01:16] #2293 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:01:16 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:16] #2293 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:01:17 | INFO | Generated buzz: [2025-09-08T05:01:17] #2294 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:01:17 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:17] #2294 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:01:18 | INFO | Generated buzz: [2025-09-08T05:01:18] #2295 | db_node_3: replication lag = 2s
+2025-09-08 05:01:18 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:18] #2295 | db_node_3: replication lag = 2s
+2025-09-08 05:01:19 | INFO | Generated buzz: [2025-09-08T05:01:19] #2296 | sensor_12: temperature reading = 72F
+2025-09-08 05:01:19 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:19] #2296 | sensor_12: temperature reading = 72F
+2025-09-08 05:01:20 | INFO | Generated buzz: [2025-09-08T05:01:20] #2297 | sensor_12: temperature reading = 73F
+2025-09-08 05:01:20 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:20] #2297 | sensor_12: temperature reading = 73F
+2025-09-08 05:01:21 | INFO | Generated buzz: [2025-09-08T05:01:21] #2298 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:01:21 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:21] #2298 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:01:22 | INFO | Generated buzz: [2025-09-08T05:01:22] #2299 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:01:22 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:22] #2299 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:01:23 | INFO | Generated buzz: [2025-09-08T05:01:23] #2300 | db_node_3: replication lag = 2s
+2025-09-08 05:01:23 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:23] #2300 | db_node_3: replication lag = 2s
+2025-09-08 05:01:24 | INFO | Generated buzz: [2025-09-08T05:01:24] #2301 | sensor_12: temperature reading = 72F
+2025-09-08 05:01:24 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:24] #2301 | sensor_12: temperature reading = 72F
+2025-09-08 05:01:25 | INFO | Generated buzz: [2025-09-08T05:01:25] #2302 | sensor_12: temperature reading = 73F
+2025-09-08 05:01:25 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:25] #2302 | sensor_12: temperature reading = 73F
+2025-09-08 05:01:26 | INFO | Generated buzz: [2025-09-08T05:01:26] #2303 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:01:26 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:26] #2303 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:01:27 | INFO | Generated buzz: [2025-09-08T05:01:27] #2304 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:01:27 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:27] #2304 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:01:28 | INFO | Generated buzz: [2025-09-08T05:01:28] #2305 | db_node_3: replication lag = 2s
+2025-09-08 05:01:28 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:28] #2305 | db_node_3: replication lag = 2s
+2025-09-08 05:01:29 | INFO | Generated buzz: [2025-09-08T05:01:29] #2306 | sensor_12: temperature reading = 72F
+2025-09-08 05:01:29 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:29] #2306 | sensor_12: temperature reading = 72F
+2025-09-08 05:01:30 | INFO | Generated buzz: [2025-09-08T05:01:30] #2307 | sensor_12: temperature reading = 73F
+2025-09-08 05:01:30 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:30] #2307 | sensor_12: temperature reading = 73F
+2025-09-08 05:01:31 | INFO | Generated buzz: [2025-09-08T05:01:31] #2308 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:01:31 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:31] #2308 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:01:32 | INFO | Generated buzz: [2025-09-08T05:01:32] #2309 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:01:32 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:32] #2309 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:01:33 | INFO | Generated buzz: [2025-09-08T05:01:33] #2310 | db_node_3: replication lag = 2s
+2025-09-08 05:01:33 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:33] #2310 | db_node_3: replication lag = 2s
+2025-09-08 05:01:34 | INFO | Generated buzz: [2025-09-08T05:01:34] #2311 | sensor_12: temperature reading = 72F
+2025-09-08 05:01:34 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:34] #2311 | sensor_12: temperature reading = 72F
+2025-09-08 05:01:35 | INFO | Generated buzz: [2025-09-08T05:01:35] #2312 | sensor_12: temperature reading = 73F
+2025-09-08 05:01:35 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:35] #2312 | sensor_12: temperature reading = 73F
+2025-09-08 05:01:36 | INFO | Generated buzz: [2025-09-08T05:01:36] #2313 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:01:36 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:36] #2313 | webserver_01: GET /api/products 200 OK
+2025-09-08 05:01:37 | INFO | Generated buzz: [2025-09-08T05:01:37] #2314 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:01:37 | INFO | Sent message to topic 'buzzline': [2025-09-08T05:01:37] #2314 | webserver_02: POST /api/checkout 201 Created
+2025-09-08 05:01:38 | WARNING | Producer interrupted by user.
+2025-09-08 05:01:38 | INFO | Kafka producer closed.
+2025-09-08 05:01:38 | INFO | END producer.

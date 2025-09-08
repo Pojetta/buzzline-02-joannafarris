@@ -107,13 +107,58 @@ This project is licensed under the MIT License as an example project.
 You are encouraged to fork, copy, explore, and modify the code as you like.
 See the [LICENSE](LICENSE.txt) file for more.
 
--------
-kafka-server-start.sh → starts the Kafka broker 
+---
 
-kafka-server-stop.sh → stops it 
+## Custom Producer & Consumer
 
-kafka-topics.sh → create, list, and describe topics 
+This project includes my custom Kafka producer and consumer that emit and process simple, real-world-ish log messages (sensor/webserver/db). The consumer also does tiny real-time analytics and raises alerts on specific patterns.
 
-kafka-console-producer.sh → send (produce) messages 
+### Environment variables
+Create or update your `.env` at the project root:
 
-kafka-console-consumer.sh → read (consume) messages
+Topic + pacing 
+``` 
+KAFKA_TOPIC=buzz_topic
+MESSAGE_INTERVAL_SECONDS=1
+```
+
+Consumer group (string)
+```
+KAFKA_CONSUMER_GROUP_ID_JSON=joanna-group
+```
+
+### Run producer
+
+terminal 1
+
+```
+source .venv/bin/activate  
+python3.11 -m producers   
+kafka_producer_joannafarris
+```
+
+### Run consumer 
+
+terminal 2 (new)
+```
+source .venv/bin/activate
+python3.11 -m consumers.kafka_consumer_joannafarris
+```
+
+### What the producer does (custom messages)
+
+- Emits simple log-style strings that look like real-world system events
+  - Examples: `sensor_12: temperature reading = 72F`,  
+    `webserver_01: GET /api/products 200 OK`,  
+    `db_node_3: replication lag = 2s`
+- Adds a timestamp and message counter to each event
+- Sends messages continuously to the configured Kafka topic
+
+### What the consumer does (real-time analytics)
+
+- Tracks counts by subsystem and category (sensor / webserver / db)
+- Prints a short summary every 10 messages
+- Alerts on simple patterns in the stream:
+  - Sensor high temperature (≥ 75F)
+  - Web server HTTP 5xx errors
+  - Database replication lag (≥ 3s)
