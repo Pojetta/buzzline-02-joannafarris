@@ -18,7 +18,7 @@
 
 ### On Mac  - don't include the #:
 # brew install python@3.11
-# python3 -m venv .venv
+# python3.11 -m venv .venv
 
 ### On Linux/WSL - don't include the #:
 # sudo apt update

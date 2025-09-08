@@ -25,7 +25,17 @@ In this task, we will download, install, configure, and start a local Kafka serv
 
 1. Install Windows Subsystem for Linux (Windows machines only)
 2. Install Kafka Streaming Platform
-3. Start the Kafka service (leave the terminal open).
+3. Start the Kafka service (outside the project).
+
+
+Open a terminal, go to ~/kafka, and run:  
+
+```
+cd ~/kafka 
+bin/kafka-server-start.sh config/kraft/server.properties 
+```
+
+Keep this terminal open. This is the Kafka broker running in the background.
 
 For detailed instructions, see:
 
@@ -40,27 +50,13 @@ Open your project in VS Code and use the commands for your operating system to:
 3. Upgrade pip
 4. Install from requirements.txt
 
-### Windows
-
-Open PowerShell terminal in VS Code (Terminal / New Terminal / PowerShell).
-
-```powershell
-py -3.11 -m venv .venv
-.venv\Scripts\Activate.ps1
-py -m pip install --upgrade pip wheel setuptools
-py -m pip install --upgrade -r requirements.txt
-```
-
-If you get execution policy error, run this first:
-`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
-
 ### Mac / Linux
 
 ```bash
-python3 -m venv .venv
+python3.11 -m venv .venv
 source .venv/bin/activate
-python3 -m pip install --upgrade pip
-python3 -m pip install --upgrade -r requirements.txt
+python3.11 -m pip install --upgrade pip
+python3.11 -m pip install --upgrade -r requirements.txt
 ```
 
 ## Task 3. Start a Kafka Producer
@@ -70,18 +66,11 @@ Producers generate streaming data for our topics.
 In VS Code, open a terminal.
 Use the commands below to activate .venv, and start the producer.
 
-Windows:
-
-```shell
-.venv\Scripts\activate
-py -m producers.kafka_producer_case
-```
-
 Mac/Linux:
 
 ```zsh
 source .venv/bin/activate
-python3 -m producers.kafka_producer_case
+python3.11 -m producers.kafka_producer_case
 ```
 
 ## Task 4. Start a Kafka Consumer
@@ -91,18 +80,11 @@ Consumers process data from topics or logs in real time.
 In VS Code, open a NEW terminal in your root project folder.
 Use the commands below to activate .venv, and start the consumer.
 
-Windows:
-
-```shell
-.venv\Scripts\activate
-py -m consumers.kafka_consumer_case
-```
-
 Mac/Linux:
 
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.kafka_consumer_case
+python3.11 -m consumers.kafka_consumer_case
 ```
 
 ## Later Work Sessions
@@ -110,7 +92,7 @@ python3 -m consumers.kafka_consumer_case
 When resuming work on this project:
 
 1. Open the folder in VS Code.
-2. Start the Kafka service.
+2. Start the Kafka service (outside the project).
 3. Activate your local project virtual environment (.venv).
 
 ## Save Space
