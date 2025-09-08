@@ -4,9 +4,9 @@ kafka_consumer_joannafarris.py
 Consume messages from a Kafka topic and process them.
 """
 
-#####################################
+###################################
 # Import Modules
-#####################################
+###################################
 
 # Import packages from Python Standard Library
 import os
@@ -18,9 +18,9 @@ from dotenv import load_dotenv
 from utils.utils_consumer import create_kafka_consumer
 from utils.utils_logger import logger
 
-#####################################
+###################################
 # Load Environment Variables
-#####################################
+###################################
 
 load_dotenv()
 
