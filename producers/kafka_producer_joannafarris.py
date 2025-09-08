@@ -52,27 +52,30 @@ def get_message_interval() -> int:
 
 def generate_messages(producer, topic, interval_secs):
     """
-    Generate a stream of buzz messages and send them to a Kafka topic.
-
-    Args:
-        producer (KafkaProducer): The Kafka producer instance.
-        topic (str): The Kafka topic to send messages to.
-        interval_secs (int): Time in seconds between sending messages.
-
+    Generate simple custom buzz messages (plain strings) and send them to a Kafka topic.
+    Each message includes a counter and timestamp for realism.
     """
-    string_list: list = [
-        "I love Python!",
-        "Kafka is awesome.",
-        "Streaming data is fun.",
-        "This is a buzz message.",
-        "Have a great day!",
+    import time
+    from datetime import datetime
+
+    base_lines = [
+        "sensor_12: temperature reading = 72F",
+        "sensor_12: temperature reading = 73F",
+        "webserver_01: GET /api/products 200 OK",
+        "webserver_02: POST /api/checkout 201 Created",
+        "db_node_3: replication lag = 2s",
     ]
+
+    i = 1
     try:
         while True:
-            for message in string_list:
+            for line in base_lines:
+                ts = datetime.now().isoformat(timespec="seconds")
+                message = f"[{ts}] #{i} | {line}"
                 logger.info(f"Generated buzz: {message}")
                 producer.send(topic, value=message)
                 logger.info(f"Sent message to topic '{topic}': {message}")
+                i += 1
                 time.sleep(interval_secs)
     except KeyboardInterrupt:
         logger.warning("Producer interrupted by user.")
@@ -81,6 +84,7 @@ def generate_messages(producer, topic, interval_secs):
     finally:
         producer.close()
         logger.info("Kafka producer closed.")
+
 
 
 #####################################
